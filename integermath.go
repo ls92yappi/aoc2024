@@ -1,5 +1,5 @@
-//package intmath
-package main
+package intmath
+//package main
 
 import (
 	"fmt" // only for testing
