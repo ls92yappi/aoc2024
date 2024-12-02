@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import . "github.com/ls92yappi/aoc2024/aoc"
+import aoc "github.com/ls92yappi/aoc2024"
 
 ///////////////////////////////////////////////////////////
 
