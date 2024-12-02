@@ -27,4 +27,8 @@ func main() {
 	fmt.Println(Min(list4))
 	fl := Factor(27720*54321)
 	fmt.Println("27720*54321",fl,Sum(fl))
+
+	s := "3 1 4 1 5 9"
+	il,ni,_ := IntSlice(s, " ")
+	fmt.Printf("%d items, namely %v\n", ni, il)
 }
