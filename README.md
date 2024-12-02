@@ -1,7 +1,7 @@
 # adventofcode2024 #
 
 My [2024 Advent of Code](https://adventofcode.com/2024) puzzle solutions, written in Go. No dependencies on anything outside the standard library. 
-Each solution is documented between its source code file and the README for its day. As my friends and I always say, "if it's not documented, it's not done." Excluding README documentation, the `cloc --by-file ./**/*.go` of my source code after Day 01 was XXXX blank lines, XXXX comment lines, XXXX code lines. Those are pretty typical numbers for me, given the accompanying README files.  
+Each solution is documented between its source code file and the README for its day. As my friends and I always say, "if it's not documented, it's not done." Excluding README documentation, the `cloc --by-file ./**/*.go` of my source code after Day 02 was 136 blank lines, 107 comment lines, 385 code lines. Those are pretty typical numbers for me, given the accompanying README files.  
 
 The event started on December 1st, and I was actually available to start it on opening day this year.  
 
@@ -18,7 +18,7 @@ My fastest time to Part 1 was 00:25:50 on Day 1. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
-  2   00:00:00              0   00:00:00              0
+  2   00:31:21    9795      0   02:34:52   16100      0   Worked through a variety of off-by-1 bugs
   1   00:25:50    7371      0   00:46:26    8314      0   See https://adventofcode.com/2024/leaderboard/self
 ```
 
@@ -35,9 +35,19 @@ day01/
   day01/input1.txt
   day01/input2.txt
   day01/README.md
+day02/
+  day02/problem1.go       // D2 P1
+  day02/problem2.go       // D2 P2
+  day02/ex1.txt
+  day02/ex2.txt
+  day02/input1.txt
+  day02/input2.txt
+  day02/test2.txt         // BAD results from P1 for further testing
+  day02/README.md
 ```
 
 
+Simple helper script to speed up runs at `~/bin/solve`:
 ```bash
 #!/bin/bash
 
