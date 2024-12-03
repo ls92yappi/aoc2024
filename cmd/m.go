@@ -31,4 +31,5 @@ func main() {
 	s := "3 1 4 1 5 9"
 	il,ni,_ := IntSlice(s, " ")
 	fmt.Printf("%d items, namely %v\n", ni, il)
+	fmt.Printf("LCM(%v) = %d\n", il, LCM(il))
 }
