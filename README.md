@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:50 on Day 1. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+  2   00:28:02   10234      0   01:09:23   11865      0   
   2   00:31:21    9795      0   02:34:52   16100      0   Worked through a variety of off-by-1 bugs
   1   00:25:50    7371      0   00:46:26    8314      0   See https://adventofcode.com/2024/leaderboard/self
 ```
@@ -26,7 +27,7 @@ Day       Time    Rank  Score       Time    Rank  Score
 ### Brief overview of all files ###
 ```
 README.md
-integermath.go           // Convenience only - written in 2023
+integermath.go           // refactored into ls92yappi/aoc repo
 day01/
   day01/problem1.go       // D1 P1
   day01/problem2.go       // D1 P2
@@ -44,6 +45,14 @@ day02/
   day02/input2.txt
   day02/test2.txt         // BAD results from P1 for further testing
   day02/README.md
+day03/
+  day03/problem1.go       // D3 P1
+  day03/problem2.go       // D3 P2
+  day03/ex1.txt
+  day03/ex2.txt
+  day03/input1.txt
+  day03/input2.txt
+  day03/README.md
 ```
 
 
