@@ -10,15 +10,16 @@ My best Part 1 rank was #3910 on Day 22. My best Part 2 rank was #4194 on Day 20
 My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 01:16:44 on Day 11. My fastest delta for time 2 was 00:24:26 on Day 11.  
 
 #### 2024 bests ####
-My best Part 1 rank was #7371 on Day 1. My best Part 2 rank was #8314 on Day 1.  
-My fastest time to Part 1 was 00:25:50 on Day 1. My fastest time to Part 2 was 00:46:26 on Day 1. My fastest delta for time 2 was 00:20:36 on Day 1.  
+My best Part 1 rank was #7371 on Day 1. My best Part 2 rank was #8314 on Day 4.  
+My fastest time to Part 1 was 00:25:50 on Day 1. My fastest time to Part 2 was 00:37:54 on Day 1. My fastest delta for time 2 was 00:12:17 on Day 4.  
 
 
 ### Times and Ranks ###
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
-  2   00:28:02   10234      0   01:09:23   11865      0   
+  4   00:25:37    5298      0   00:37:54    4641      0   
+  3   00:28:02   10234      0   01:09:23   11865      0   
   2   00:31:21    9795      0   02:34:52   16100      0   Worked through a variety of off-by-1 bugs
   1   00:25:50    7371      0   00:46:26    8314      0   See https://adventofcode.com/2024/leaderboard/self
 ```
@@ -53,6 +54,14 @@ day03/
   day03/input1.txt
   day03/input2.txt
   day03/README.md
+day04/
+  day04/problem1.go       // D4 P1
+  day04/problem2.go       // D4 P2
+  day04/ex1.txt
+  day04/ex2.txt
+  day04/input1.txt
+  day04/input2.txt
+  day04/README.md
 ```
 
 
