@@ -10,8 +10,8 @@ My best Part 1 rank was #3910 on Day 22. My best Part 2 rank was #4194 on Day 20
 My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 01:16:44 on Day 11. My fastest delta for time 2 was 00:24:26 on Day 11.  
 
 #### 2024 bests ####
-My best Part 1 rank was #7371 on Day 1. My best Part 2 rank was #8314 on Day 4.  
-My fastest time to Part 1 was 00:25:50 on Day 1. My fastest time to Part 2 was 00:37:54 on Day 1. My fastest delta for time 2 was 00:12:17 on Day 4.  
+My best Part 1 rank was #5298 on Day 4. My best Part 2 rank was #4641 on Day 4.  
+My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:12:17 on Day 4.  
 
 
 ### Times and Ranks ###
