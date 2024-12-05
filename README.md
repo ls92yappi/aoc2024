@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+  4   00:30:38    6529      0   01:54:49   11514      0   P2 off-by-1: append(fixed,orig[i+1:j]
   4   00:25:37    5298      0   00:37:54    4641      0   
   3   00:28:02   10234      0   01:09:23   11865      0   
   2   00:31:21    9795      0   02:34:52   16100      0   Worked through a variety of off-by-1 bugs
@@ -62,6 +63,15 @@ day04/
   day04/input1.txt
   day04/input2.txt
   day04/README.md
+day05/
+  day05/problem1.go       // D5 P1
+  day05/problem2.go       // D5 P2
+  day05/ex1.txt
+  day05/ex2.txt
+  day05/input1.txt
+  day05/input2.txt
+  day05/test2.txt         // Simplified known bad sequence from P2
+  day05/README.md
 ```
 
 
