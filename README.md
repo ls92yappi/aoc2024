@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+
   5   00:30:38    6529      0   01:54:49   11514      0   P2 off-by-1: append(fixed,orig[i+1:j]
   4   00:25:37    5298      0   00:37:54    4641      0   
   3   00:28:02   10234      0   01:09:23   11865      0   
@@ -72,6 +73,14 @@ day05/                  Insertion sort with slices (skipped toposort)
   day05/input2.txt
   day05/test2.txt         // Simplified known bad sequence from P2
   day05/README.md
+day06/                  Maze Day (faked loop detection with timing out)
+  day06/problem1.go       // D4 P1
+  day06/problem2.go       // D4 P2
+  day06/ex1.txt
+  day06/ex2.txt
+  day06/input1.txt
+  day06/input2.txt
+  day06/README.md
 ```
 
 
