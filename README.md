@@ -11,14 +11,15 @@ My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 
 
 #### 2024 bests ####
 My best Part 1 rank was #5298 on Day 4. My best Part 2 rank was #4641 on Day 4.  
-My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:12:17 on Day 4.  
+My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:12:00 on Day 8.  
 
 
 ### Times and Ranks ###
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
-  7   00:47:00    8513      0   01:33:29    6052      0   Binary ops, 3 choices
+  8   00:47:23    6171      0   00:59:23    5662      0   
+  7   00:26:20    4786      0   02:48:48   12230      0   P2 Recursive ops
   6   00:47:00    8513      0   01:33:29    6052      0   
   5   00:30:38    6529      0   01:54:49   11514      0   P2 off-by-1: append(fixed,orig[i+1:j]
   4   00:25:37    5298      0   00:37:54    4641      0   
@@ -32,65 +33,26 @@ Day       Time    Rank  Score       Time    Rank  Score
 ```
 README.md
 integermath.go           // refactored into ls92yappi/aoc repo
+dayNN/
+  dayNN/problem1.go       // Dn P1
+  dayNN/problem2.go       // Dn P2
+  dayNN/ex1.txt
+  dayNN/ex2.txt
+  dayNN/input1.txt
+  dayNN/input2.txt
+  dayNN/README.md
 day01/                  List (skipped frequency table)
-  day01/problem1.go       // D1 P1
-  day01/problem2.go       // D1 P2
-  day01/ex1.txt
-  day01/ex2.txt
-  day01/input1.txt
-  day01/input2.txt
-  day01/README.md
 day02/                  Ranged increasing/decreasing filter with removal
-  day02/problem1.go       // D2 P1
-  day02/problem2.go       // D2 P2
-  day02/ex1.txt
-  day02/ex2.txt
-  day02/input1.txt
-  day02/input2.txt
   day02/test2.txt         // BAD results from P1 for further testing
-  day02/README.md
 day03/                  RegEx day
-  day03/problem1.go       // D3 P1
-  day03/problem2.go       // D3 P2
-  day03/ex1.txt
-  day03/ex2.txt
-  day03/input1.txt
-  day03/input2.txt
-  day03/README.md
 day04/                  Crossword
-  day04/problem1.go       // D4 P1
-  day04/problem2.go       // D4 P2
-  day04/ex1.txt
-  day04/ex2.txt
-  day04/input1.txt
-  day04/input2.txt
-  day04/README.md
 day05/                  Insertion sort with slices (skipped toposort)
-  day05/problem1.go       // D5 P1
-  day05/problem2.go       // D5 P2
-  day05/ex1.txt
-  day05/ex2.txt
-  day05/input1.txt
-  day05/input2.txt
   day05/test2.txt         // Simplified known bad sequence from P2
-  day05/README.md
 day06/                  Maze Day (faked loop detection with timing out)
-  day06/problem1.go       // D6 P1
-  day06/problem2.go       // D6 P2
-  day06/ex1.txt
-  day06/ex2.txt
-  day06/input1.txt
-  day06/input2.txt
-  day06/README.md
 day07/                  Recursive operation varying and shortcircuiting
-  day07/problem1.go       // D7 P1
-  day07/problem2.go       // D7 P2
-  day07/ex1.txt
-  day07/ex2.txt
-  day07/input1.txt
-  day07/input2.txt
-  day07/README.md
+day08/                  Hash table and grid day
 ```
+Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
 
 Simple helper script to speed up runs at `~/bin/solve`:
