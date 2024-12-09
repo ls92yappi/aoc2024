@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+  9   03:57:49   17179      0   05:36:29   12916      0   bytes -> []int, P2 -> []struct{int,int}
   8   00:47:23    6171      0   00:59:23    5662      0   
   7   00:26:20    4786      0   02:48:48   12230      0   P2 Recursive ops
   6   00:47:00    8513      0   01:33:29    6052      0   
@@ -25,8 +26,9 @@ Day       Time    Rank  Score       Time    Rank  Score
   4   00:25:37    5298      0   00:37:54    4641      0   
   3   00:28:02   10234      0   01:09:23   11865      0   
   2   00:31:21    9795      0   02:34:52   16100      0   Worked through a variety of off-by-1 bugs
-  1   00:25:50    7371      0   00:46:26    8314      0   See https://adventofcode.com/2024/leaderboard/self
+  1   00:25:50    7371      0   00:46:26    8314      0   
 ```
+See https://adventofcode.com/2024/leaderboard/self  
 
 
 ### Brief overview of all files ###
@@ -51,6 +53,9 @@ day05/                  Insertion sort with slices (skipped toposort)
 day06/                  Maze Day (faked loop detection with timing out)
 day07/                  Recursive operation varying and shortcircuiting
 day08/                  Hash table and grid day
+day09/                  Defrag modeling
+  day09/row1.txt          // One row long from input, included 2-digit values
+  day09/short2.txt        // Case where first useful Gap after values to move
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
