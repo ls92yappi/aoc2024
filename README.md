@@ -11,13 +11,14 @@ My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 
 
 #### 2024 bests ####
 My best Part 1 rank was #5298 on Day 4. My best Part 2 rank was #4641 on Day 4.  
-My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:12:00 on Day 8.  
+My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:08:34 on Day 10.  
 
 
 ### Times and Ranks ###
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 10   01:40:34   10134      0   01:48:58    9811      0   Fiddly P1 setup
   9   03:57:49   17179      0   05:36:29   12916      0   bytes -> []int, P2 -> []struct{int,int}
   8   00:47:23    6171      0   00:59:23    5662      0   
   7   00:26:20    4786      0   02:48:48   12230      0   P2 Recursive ops
@@ -56,6 +57,8 @@ day08/                  Hash table and grid day
 day09/                  Defrag modeling
   day09/row1.txt          // One row long from input, included 2-digit values
   day09/short2.txt        // Case where first useful Gap after values to move
+day10/                  Routes counting
+  day10/test1.txt         // Simplest example provided
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
