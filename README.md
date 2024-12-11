@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 11   00:45:02    8952      0   01:26:13    6302      0   P2 Memoization example :)
  10   01:40:34   10134      0   01:48:58    9811      0   Fiddly P1 setup
   9   03:57:49   17179      0   05:36:29   12916      0   bytes -> []int, P2 -> []struct{int,int}
   8   00:47:23    6171      0   00:59:23    5662      0   
@@ -59,6 +60,7 @@ day09/                  Defrag modeling
   day09/short2.txt        // Case where first useful Gap after values to move
 day10/                  Routes counting
   day10/test1.txt         // Simplest example provided
+day11/                  Memoization of P2
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
