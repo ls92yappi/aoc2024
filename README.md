@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 12   01:47:15    8942      0   03:12:04    6149      0   Ternary If()
  11   00:45:02    8952      0   01:26:13    6302      0   P2 Memoization example :)
  10   01:40:34   10134      0   01:48:58    9811      0   Fiddly P1 setup
   9   03:57:49   17179      0   05:36:29   12916      0   bytes -> []int, P2 -> []struct{int,int}
@@ -61,6 +62,13 @@ day09/                  Defrag modeling
 day10/                  Routes counting
   day10/test1.txt         // Simplest example provided
 day11/                  Memoization of P2
+day12/                  Routes counting
+  day12/embed1.txt        // provided examples
+  day12/embed2.txt        
+  day12/mini1.txt         
+  day12/mini2.txt         
+  day12/abba2.txt         
+  day12/eee2.txt          
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
