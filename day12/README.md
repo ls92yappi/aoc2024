@@ -1,3 +1,9 @@
+## Implementation ##
+
+Run Day 12 Part 1 with `solve 1`. Took some time to set up, then to figure out approach to perim().  
+
+Run Day 12 Part 2 with `solve 2`. Approach for sides() was apparent, took some time to fix off-by-1 bugs.  
+
 ## Day 12 - Part 1 ##
 
 ```
@@ -149,9 +155,3 @@ Adding these together produces its new total price of 1206.
 
 What is the new total price of fencing all regions on your map?
 ```
-
-## Implementation ##
-
-Run Day 12 Part 1 with `solve 1`. Took some time to set up, then to figure out approach to perim().  
-
-Run Day 12 Part 2 with `solve 2`. Approach for sides() was apparent, took some time to fix off-by-1 bugs.  

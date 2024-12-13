@@ -1,5 +1,12 @@
+## Implementation ##
+
+Run Day 05 Part 1 with `solve 1`. Straight forward verify filter and sum  
+
+Run Day 05 Part 2 with `solve 2`. Verify filter, followed by funky insertion sort, then sum. Had an off-by-1 on the insertion/slide aspect which took a bit to identify  
+
 ## Day 05 - Part 1 ##
 
+```
 --- Day 5: Print Queue ---
 
 Satisfied with their search on Ceres, the squadron of scholars suggests subsequently scanning the stationery stacks of sub-basement 17.
@@ -78,10 +85,11 @@ These have middle page numbers of 61, 53, and 29 respectively. Adding these page
 Of course, you'll need to be careful: the actual list of page ordering rules is bigger and more complicated than the above example.
 
 Determine which updates are already in the correct order. What do you get if you add up the middle page number from those correctly-ordered updates?
-
+```
 
 ## Day 05 - Part 2 ##
 
+```
 --- Part Two ---
 
 While the Elves get to work printing the correctly-ordered updates, you have a little time to fix the rest of them.
@@ -95,10 +103,4 @@ For each of the incorrectly-ordered updates, use the page ordering rules to put 
 After taking only the incorrectly-ordered updates and ordering them correctly, their middle page numbers are 47, 29, and 47. Adding these together produces 123.
 
 Find the updates which are not in the correct order. What do you get if you add up the middle page numbers after correctly ordering just those updates?
-
-
-## Implementation ##
-
-Run Day 05 Part 1 with `solve 1`. Straight forward verify filter and sum  
-
-Run Day 05 Part 2 with `solve 2`. Verify filter, followed by funky insertion sort, then sum. Had an off-by-1 on the insertion/slide aspect which took a bit to identify  
+```

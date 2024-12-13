@@ -1,3 +1,9 @@
+## Implementation ##
+
+Run Day 08 Part 1 with `solve 1`. Find pairs, determine if within range, count them. 
+
+Run Day 08 Part 2 with `solve 2`. Variable distance multiplier.  
+
 ## Day 08 - Part 1 ##
 
 ```
@@ -126,9 +132,3 @@ The original example now has 34 antinodes, including the antinodes that appear o
 
 Calculate the impact of the signal using this updated model. How many unique locations within the bounds of the map contain an antinode?
 ```
-
-## Implementation ##
-
-Run Day 08 Part 1 with `solve 1`. Find pairs, determine if within range, count them. 
-
-Run Day 08 Part 2 with `solve 2`. Variable distance multiplier.  

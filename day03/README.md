@@ -1,5 +1,12 @@
+## Implementation ##
+
+Run Day 03 Part 1 with `solve 1`. Applied a simple regular expression to each line, and computed based on matches.  
+
+Run Day 03 Part 2 with `solve 2`. Applied regex's for mul(), do(), and don't(), then did a single pass through each character from each line, either turning on the `keep` mode, turning it off, or performing the computation for mul()s where `keep` mode is on. Ignore all other character spots.  
+
 ## Day 03 - Part 1 ##
 
+```
 --- Day 3: Mull It Over ---
 
 "Our computers are having issues, so I have no idea if we have any Chief Historians in stock! You're welcome to check the warehouse, though," says the mildly flustered shopkeeper at the North Pole Toboggan Rental Shop. The Historians head out to take a look.
@@ -19,11 +26,11 @@ xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))
 Only the four highlighted sections are real mul instructions. Adding up the result of each instruction produces 161 (2*4 + 5*5 + 11*8 + 8*5).
 
 Scan the corrupted memory for uncorrupted mul instructions. What do you get if you add up all of the results of the multiplications?
-
-
+```
 
 ## Day 03 - Part 2 ##
 
+```
 --- Part Two ---
 
 As you scan through the corrupted memory, you notice that some of the conditional statements are also still intact. If you handle some of the uncorrupted conditional statements in the program, you might be able to get an even more accurate result.
@@ -44,11 +51,4 @@ This corrupted memory is similar to the example from before, but this time the m
 This time, the sum of the results is 48 (2*4 + 8*5).
 
 Handle the new instructions; what do you get if you add up all of the results of just the enabled multiplications?
-
-
-
-## Implementation ##
-
-Run Day 03 Part 1 with `solve 1`. Applied a simple regular expression to each line, and computed based on matches.  
-
-Run Day 03 Part 2 with `solve 2`. Applied regex's for mul(), do(), and don't(), then did a single pass through each character from each line, either turning on the `keep` mode, turning it off, or performing the computation for mul()s where `keep` mode is on. Ignore all other character spots.  
+```

@@ -1,5 +1,12 @@
+## Implementation ##
+
+Run Day 04 Part 1 with `solve 1`. Find the cases and increment those counts. 
+
+Run Day 04 Part 2 with `solve 2`. Same as Part 1, but with different cases.  
+
 ## Day 04 - Part 1 ##
 
+```
 --- Day 4: Ceres Search ---
 
 "Looks like the Chief's not here. Next!" One of The Historians pulls out a device and pushes the only button on it. After a brief flash, you recognize the interior of the Ceres monitoring station!
@@ -41,9 +48,11 @@ S.S.S.S.SS
 .X.X.XMASX
 
 Take a look at the little Elf's word search. How many times does XMAS appear?
+```
 
 ## Day 04 - Part 2 ##
 
+```
 --- Part Two ---
 
 The Elf looks quizzically at you. Did you misunderstand the assignment?
@@ -72,9 +81,4 @@ M.M.M.M.M.
 In this example, an X-MAS appears 9 times.
 
 Flip the word search from the instructions back over to the word search side and try again. How many times does an X-MAS appear?
-
-## Implementation ##
-
-Run Day 04 Part 1 with `solve 1`. Find the cases and increment those counts. 
-
-Run Day 04 Part 2 with `solve 2`. Same as Part 1, but with different cases.  
+```

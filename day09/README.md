@@ -1,3 +1,11 @@
+## Implementation ##
+
+The provided example was NOT helpful since it never had the file ID number at 2 digits or more. Created `row1.txt` and then `short2.txt` as test cases that solved errors.  
+
+Run Day 09 Part 1 with `solve 1`. Tried to treat as []byte, made huge mess. Ultimately treated as []int and then not too hard.  
+
+Run Day 09 Part 2 with `solve 2`. Had to change from []int to a structure including both value and size.  
+
 ## Day 09 - Part 1 ##
 
 ```
@@ -78,11 +86,3 @@ The process of updating the filesystem checksum is the same; now, this example's
 
 Start over, now compacting the amphipod's hard drive using this new method instead. What is the resulting filesystem checksum?
 ```
-
-## Implementation ##
-
-The provided example was NOT helpful since it never had the file ID number at 2 digits or more. Created `row1.txt` and then `short2.txt` as test cases that solved errors.  
-
-Run Day 09 Part 1 with `solve 1`. Tried to treat as []byte, made huge mess. Ultimately treated as []int and then not too hard.  
-
-Run Day 09 Part 2 with `solve 2`. Had to change from []int to a structure including both value and size.  

@@ -1,3 +1,10 @@
+## Implementation ##
+
+Run Day 13 Part 1 with `solve 1`. Spent an hour just getting the regexp type conversions right to actually use the regex which was obvious at the beginning. Solving this in Perl would have taken an hour less from that alone, since the language natively handles regex in a non-psychotic fashion, where you're not constasntly typecasting into []byte and strings from []byte.  
+The logic and the math was easy, the regular expression usage (not the regex formulation) in Go was hard. Should have just used Cut()/Split() and called it a day.  
+
+Run Day 13 Part 2 with `solve 2`. Just a pinch of algebra to solve, then verify candidates are diophantine (integer coefficients). Easy peasy, given Part 1's regular expression parsing.  
+
 ## Day 13 - Part 1 ##
 
 ```
@@ -81,10 +88,3 @@ Now, it is only possible to win a prize on the second and fourth claw machines. 
 
 Using the corrected prize coordinates, figure out how to win as many prizes as possible. What is the fewest tokens you would have to spend to win all possible prizes?
 ```
-
-## Implementation ##
-
-Run Day 13 Part 1 with `solve 1`. Spent an hour just getting the regexp type conversions right to actually use the regex which was obvious at the beginning. Solving this in Perl would have taken an hour less from that alone, since the language natively handles regex in a non-psychotic fashion, where you're not constasntly typecasting into []byte and strings from []byte.  
-The logic and the math was easy, the regular expression usage (not the regex formulation) in Go was hard. Should have just used Cut()/Split() and called it a day.  
-
-Run Day 13 Part 2 with `solve 2`. Just a pinch of algebra to solve, then verify candidates are diophantine (integer coefficients). Easy peasy, given Part 1's regular expression parsing.  

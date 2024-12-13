@@ -1,3 +1,9 @@
+## Implementation ##
+
+Run Day 11 Part 1 with `solve 1`.  
+
+Run Day 11 Part 2 with `solve 2`. Algorithm for Part 2 is the same as for Part 1, however the stack size gets ridiculous pretty quickly, and causes processing slowdowns at around 40 blinks or so. Had to change approach to a Memoization-style approach. Since the blink() function is order-independent, this worked fine. As a result blink() is not called more than len(Blink) times, so much less processing required. Similarly, since only a length is needed, we track the count of each Blink[] entry, and just sum those. The final len(Blink) was only 3782, so the final processing time was under 0.17s for 75 blink passes.
+
 ## Day 11 - Part 1 ##
 
 ```
@@ -68,9 +74,3 @@ The Historians sure are taking a long time. To be fair, the infinite corridors a
 
 How many stones would you have after blinking a total of 75 times?
 ```
-
-## Implementation ##
-
-Run Day 11 Part 1 with `solve 1`.  
-
-Run Day 11 Part 2 with `solve 2`. Algorithm for Part 2 is the same as for Part 1, however the stack size gets ridiculous pretty quickly, and causes processing slowdowns at around 40 blinks or so. Had to change approach to a Memoization-style approach. Since the blink() function is order-independent, this worked fine. As a result blink() is not called more than len(Blink) times, so much less processing required. Similarly, since only a length is needed, we track the count of each Blink[] entry, and just sum those. The final len(Blink) was only 3782, so the final processing time was under 0.17s for 75 blink passes.

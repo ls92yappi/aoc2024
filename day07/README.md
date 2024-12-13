@@ -1,3 +1,9 @@
+## Implementation ##
+
+Run Day 07 Part 1 with `solve 1`.  
+
+Run Day 07 Part 2 with `solve 2`. See the several comments in problem2.go. Tried a couple different approaches. Bruteforcing all paths, like in problem1, actually failed to produce the correct output. Never figured out why. Computing it recursively was both faster with shortcuiting but also more accurate. I have to suspect there is an off-by-1 bug in the bruteforcing approach.  
+
 ## Day 07 - Part 1 ##
 
 ```
@@ -55,9 +61,3 @@ Adding up all six test values (the three that could be made before using only + 
 
 Using your new knowledge of elephant hiding spots, determine which equations could possibly be true. What is their total calibration result?
 ```
-
-## Implementation ##
-
-Run Day 07 Part 1 with `solve 1`.  
-
-Run Day 07 Part 2 with `solve 2`. See the several comments in problem2.go. Tried a couple different approaches. Bruteforcing all paths, like in problem1, actually failed to produce the correct output. Never figured out why. Computing it recursively was both faster with shortcuiting but also more accurate. I have to suspect there is an off-by-1 bug in the bruteforcing approach.  

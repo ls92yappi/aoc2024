@@ -1,5 +1,12 @@
+## Implementation ##
+
+Run Day 06 Part 1 with `solve 1`.  
+
+Run Day 06 Part 2 with `solve 2`. Didn't originally reset the maze cleanly on part 2. Mimicked loop detection by knowing maximum possible number of non-looped steps, and determining that timing out the number of steps taken was sufficient and fast enough.  
+
 ## Day 06 - Part 1 ##
 
+```
 --- Day 6: Guard Gallivant ---
 
 The Historians use their fancy device again, this time to whisk you all away to the North Pole prototype suit manufacturing lab... in the year 1518! It turns out that having direct access to history is very convenient for a group of historians.
@@ -96,10 +103,11 @@ By predicting the guard's route, you can determine which specific positions in t
 In this example, the guard will visit 41 distinct positions on your map.
 
 Predict the path of the guard. How many distinct positions will the guard visit before leaving the mapped area?
-
+```
 
 ## Day 06 - Part 2 ##
 
+```
 --- Part Two ---
 
 While The Historians begin working around the guard's patrol route, you borrow their fancy device and step outside the lab. From the safety of a supply closet, you time travel through the last few months and record the nightly status of the lab's guard post on the walls of the closet.
@@ -193,11 +201,4 @@ Option six, put a tank of sovereign glue right next to the tank of universal sol
 It doesn't really matter what you choose to use as an obstacle so long as you and The Historians can put it into position without the guard noticing. The important thing is having enough options that you can find one that minimizes time paradoxes, and in this example, there are 6 different positions you could choose.
 
 You need to get the guard stuck in a loop by adding a single new obstruction. How many different positions could you choose for this obstruction?
-
-
-
-## Implementation ##
-
-Run Day 06 Part 1 with `solve 1`.  
-
-Run Day 06 Part 2 with `solve 2`. Didn't originally reset the maze cleanly on part 2. Mimicked loop detection by knowing maximum possible number of non-looped steps, and determining that timing out the number of steps taken was sufficient and fast enough.  
+```

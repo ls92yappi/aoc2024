@@ -1,5 +1,12 @@
+## Implementation ##
+
+Run Day 02 Part 1 with `solve 1`.  
+
+Run Day 02 Part 2 with `solve 2`. Solving part 2 was best done by copying the part 1 solution into a function, then using that on slices. This is by no means an efficient solution method, but getting the logic right without directly leveraging it was tricky.  
+
 ## Day 02 - Part 1 ##
 
+```
 --- Day 2: Red-Nosed Reports ---
 
 Fortunately, the first location The Historians want to search isn't a long walk from the Chief Historian's office.
@@ -36,10 +43,11 @@ In the example above, the reports can be found safe or unsafe by checking those 
 So, in this example, 2 reports are safe.
 
 Analyze the unusual data from the engineers. How many reports are safe?
-
+```
 
 ## Day 02 - Part 2 ##
 
+```
 --- Part Two ---
 
 The engineers are surprised by the low number of safe reports until they realize they forgot to tell you about the Problem Dampener.
@@ -60,12 +68,4 @@ More of the above example's reports are now safe:
 Thanks to the Problem Dampener, 4 reports are actually safe!
 
 Update your analysis by handling situations where the Problem Dampener can remove a single level from unsafe reports. How many reports are now safe?
-
-
-## Implementation ##
-
-Run Day 02 Part 1 with `solve 1`.  
-
-Run Day 02 Part 2 with `solve 2`.  
-
-Solving part 2 was best done by copying the part 1 solution into a function, then using that on slices. This is by no means an efficient solution method, but getting the logic right without directly leveraging it was tricky.  
+```
