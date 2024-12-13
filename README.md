@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 13   01:34:12    7820      0   02:06:26    5716      0   regexp.FindSubmatch() P1 painful
  12   01:47:15    8942      0   03:12:04    6149      0   Ternary If()
  11   00:45:02    8952      0   01:26:13    6302      0   P2 Memoization example :)
  10   01:40:34   10134      0   01:48:58    9811      0   Fiddly P1 setup
@@ -49,7 +50,7 @@ dayNN/
 day01/                  List (skipped frequency table)
 day02/                  Ranged increasing/decreasing filter with removal
   day02/test2.txt         // BAD results from P1 for further testing
-day03/                  RegEx day
+day03/                  RegEx.FindAllString/FindAllStringIndex day
 day04/                  Crossword
 day05/                  Insertion sort with slices (skipped toposort)
   day05/test2.txt         // Simplified known bad sequence from P2
@@ -69,6 +70,7 @@ day12/                  Routes counting
   day12/mini2.txt         
   day12/abba2.txt         
   day12/eee2.txt          
+day13/                  RegEx.FindSubmatch day and easy algebra for diophantine equations 
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
