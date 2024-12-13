@@ -1,4 +1,4 @@
-## Day 10 - Part 1 ##
+## Day 12 - Part 1 ##
 
 ```
 --- Day 12: Garden Groups ---
@@ -88,7 +88,7 @@ So, it has a total price of 1930.
 What is the total price of fencing all regions on your map?
 ```
 
-## Day 10 - Part 2 ##
+## Day 12 - Part 2 ##
 
 ```
 --- Part Two ---
@@ -152,6 +152,6 @@ What is the new total price of fencing all regions on your map?
 
 ## Implementation ##
 
-Run Day 10 Part 1 with `solve 1`. Took some time to set up, then to figure out approach to perim().  
+Run Day 12 Part 1 with `solve 1`. Took some time to set up, then to figure out approach to perim().  
 
-Run Day 10 Part 2 with `solve 2`. Approach for sides() was apparent, took some time to fix off-by-1 bugs.  
+Run Day 12 Part 2 with `solve 2`. Approach for sides() was apparent, took some time to fix off-by-1 bugs.  

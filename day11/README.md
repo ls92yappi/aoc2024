@@ -1,4 +1,4 @@
-## Day 10 - Part 1 ##
+## Day 11 - Part 1 ##
 
 ```
 --- Day 11: Plutonian Pebbles ---
@@ -59,7 +59,7 @@ In this example, after blinking six times, you would have 22 stones. After blink
 Consider the arrangement of stones in front of you. How many stones will you have after blinking 25 times?
 ```
 
-## Day 10 - Part 2 ##
+## Day 11 - Part 2 ##
 
 ```
 --- Part Two ---
@@ -71,6 +71,6 @@ How many stones would you have after blinking a total of 75 times?
 
 ## Implementation ##
 
-Run Day 10 Part 1 with `solve 1`.  
+Run Day 11 Part 1 with `solve 1`.  
 
-Run Day 10 Part 2 with `solve 2`. Algorithm for Part 2 is the same as for Part 1, however the stack size gets ridiculous pretty quickly, and causes processing slowdowns at around 40 blinks or so. Had to change approach to a Memoization-style approach. Since the blink() function is order-independent, this worked fine. As a result blink() is not called more than len(Blink) times, so much less processing required. Similarly, since only a length is needed, we track the count of each Blink[] entry, and just sum those. The final len(Blink) was only 3782, so the final processing time was under 0.17s for 75 blink passes.
+Run Day 11 Part 2 with `solve 2`. Algorithm for Part 2 is the same as for Part 1, however the stack size gets ridiculous pretty quickly, and causes processing slowdowns at around 40 blinks or so. Had to change approach to a Memoization-style approach. Since the blink() function is order-independent, this worked fine. As a result blink() is not called more than len(Blink) times, so much less processing required. Similarly, since only a length is needed, we track the count of each Blink[] entry, and just sum those. The final len(Blink) was only 3782, so the final processing time was under 0.17s for 75 blink passes.
