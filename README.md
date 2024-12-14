@@ -10,7 +10,7 @@ My best Part 1 rank was #3910 on Day 22. My best Part 2 rank was #4194 on Day 20
 My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 01:16:44 on Day 11. My fastest delta for time 2 was 00:24:26 on Day 11.  
 
 #### 2024 bests ####
-My best Part 1 rank was #5298 on Day 4. My best Part 2 rank was #4641 on Day 4.  
+My best Part 1 rank was #4786 on Day 7. My best Part 2 rank was #4641 on Day 4.  
 My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:08:34 on Day 10.  
 
 
@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 14   00:45:22    5062      0   04:27:26    9554      0   P2 useless hint without example
  13   01:34:12    7820      0   02:06:26    5716      0   regexp.FindSubmatch() P1 painful
  12   01:47:15    8942      0   03:12:04    6149      0   Ternary If()
  11   00:45:02    8952      0   01:26:13    6302      0   P2 Memoization example :)
@@ -38,7 +39,6 @@ See https://adventofcode.com/2024/leaderboard/self
 ### Brief overview of all files ###
 ```
 README.md
-integermath.go           // refactored into ls92yappi/aoc repo
 dayNN/
   dayNN/problem1.go       // Dn P1
   dayNN/problem2.go       // Dn P2
@@ -71,6 +71,8 @@ day12/                  Routes counting
   day12/abba2.txt         
   day12/eee2.txt          
 day13/                  RegEx.FindSubmatch day and easy algebra for diophantine equations 
+day14/                  Visualizer, wrote ModSolver(d1,r1,d2,r2) will add to utilities
+  day14/AoC2024_Day14.png // screengrab of visualization
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
