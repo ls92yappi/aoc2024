@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 15   01:12:45    5570      0     :  :     .....      0   Tired after P1, went to bed    
  14   00:45:22    5062      0   04:27:26    9554      0   P2 useless hint without example
  13   01:34:12    7820      0   02:06:26    5716      0   regexp.FindSubmatch() P1 painful
  12   01:47:15    8942      0   03:12:04    6149      0   Ternary If()
