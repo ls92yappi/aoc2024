@@ -3,6 +3,7 @@
 Run Day 15 Part 1 with `solve 1`.  
 
 Run Day 15 Part 2 with `solve 2`. Tired after Part 1, so went back to bed after updating `processInput()`, `display()`, and `canMove()`, creating `noVerticalBoxCollision()` and prepping `doMove()`. Suitable `TODO:` comments were put in place to handle possible vertical collisions and moves, noting that horizontal moves are not impacted by the new doublewide boxes given our approach during part 1. Will get back to this when less tired.  
+Found the right approach, but a lingering off-by-1 error is costing me hours....
 
 
 ## Day 15 - Part 1 ##

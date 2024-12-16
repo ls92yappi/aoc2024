@@ -21,6 +21,7 @@ import (
 const Reset = "\x1b[0m"
 const Show = "\x1b[97;42m@\x1b[0m"
 
+
 // doublewide boxes modification
 const box = 'O'
 const robot = '@'
@@ -241,11 +242,7 @@ func doMove(w [][]rune, rx,ry int, upto int, bs boxSet, move byte) (int,int,[][]
 		dir := -1
 		//fmt.Printf("UP: boxSet=%+v robot@(%d,%d)\n", bs, rx, ry)
 		// move the boxSet first, already sorted and simplified
-		for idx, br := range(bs) {
-			// CRAZY -- always skip final move?
-			if (idx == len(bs)-1) {
-				continue
-			}
+		for _, br := range(bs) {
 			depthTo := br.level
 			depthFrom := br.level - dir
 			//if len(br.locs) > 2 {
@@ -264,7 +261,6 @@ func doMove(w [][]rune, rx,ry int, upto int, bs boxSet, move byte) (int,int,[][]
 			//if len(br.locs) > 2 {
 			//	fmt.Printf("\nAFTER:\n%s\n", display(w))
 			//}
-			_ = idx
 		}
 		// then move the robot
 		//fmt.Printf("UP: robot To (%d,%d) From (%d,%d)\n", rx+dir,ry,rx,ry)
@@ -273,11 +269,7 @@ func doMove(w [][]rune, rx,ry int, upto int, bs boxSet, move byte) (int,int,[][]
 		dir := 1
 		//fmt.Printf("DN: boxSet=%+v robot@(%d,%d)\n", bs, rx, ry)
 		// move the boxSet first, already sorted and simplified
-		for idx, br := range(bs) {
-			// CRAZY -- always skip final move?
-			if (idx == len(bs)-1) {
-				continue
-			}
+		for _, br := range(bs) {
 			depthTo := br.level
 			depthFrom := br.level - dir
 			//fmt.Printf("\tDN: T=%d F=%d width=%d\n", depthTo, depthFrom, len(br.locs))
@@ -288,7 +280,6 @@ func doMove(w [][]rune, rx,ry int, upto int, bs boxSet, move byte) (int,int,[][]
 					w[depthFrom][spot] = empty
 				}
 			}
-			_ = idx
 		}
 		// then move the robot
 		//fmt.Printf("DN: robot To (%d,%d) From (%d,%d)\n", rx+dir,ry,rx,ry)
@@ -316,25 +307,15 @@ func performMoves(w [][]rune, moves []byte) [][]rune {
 	//fmt.Printf("OkMoves: ")
 	rx,ry := findRobot(w)
 	for mnum,m := range(moves) {
-		before := w
 		if ok, upto, bs := canMove(w, rx, ry, m); ok {
-			rx, ry, w = doMove(w, rx, ry, upto, bs, m)
 			//fmt.Printf(string(m))
-			
+			rx, ry, w = doMove(w, rx, ry, upto, bs, m)
 			if breakDetection(w, mnum) {
-				fmt.Printf("%s\n%s\n", "BEFORE", display(before))
-				fmt.Printf("%s @(%d,%d) %+v\n", string(m),rx,ry,bs)
 				fmt.Printf("%s\n%s\n", string(m), display(w))
 				return w
 			}
-			
-			if mnum > 1496 {
-				fmt.Printf("%s %d @(%d,%d) %+v\n", string(m),mnum, rx,ry,bs)
-				fmt.Printf("%s\n%s\n", string(m), display(w))
-			}
 			//fmt.Printf("%s\n%s\n", string(m), display(w))
 		}
-		_ = before
 		_ = mnum
 	}
 	//fmt.Printf("\n")
@@ -421,7 +402,6 @@ func processInput(fname string) int {
 	// Submissions:
 	// (1) 671557 = Too Low -- this was with the "DOES NOT PULL" version of noVerticalBoxCollision()
 	// (x) 666422 -- this was with the PULLING version that does break
-	// (2) 1425169
 }
 
 func main() {
