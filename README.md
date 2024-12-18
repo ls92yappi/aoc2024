@@ -11,13 +11,16 @@ My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 
 
 #### 2024 bests ####
 My best Part 1 rank was #4786 on Day 7. My best Part 2 rank was #4641 on Day 4.  
-My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:08:34 on Day 10.  
+My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:05:31 on Day 18.  
 
 
 ### Times and Ranks ###
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 18   01:19:51    5970      0   01:25:22    5413      0   Dijkstra's algorithm
+ 17   01:22:25    5612      0   05:38:18    4661      0   P2 octal arithmetic nightmare
+ 16   23:46:52   23316      0   00:00:00   xxxxx      0   Weighted mazes, manually eased P1    
  15   01:12:45    5570      0   12:07:02   13841      0   Tired after P1, went to bed    
  14   00:45:22    5062      0   04:27:26    9554      0   P2 useless hint without example
  13   01:34:12    7820      0   02:06:26    5716      0   regexp.FindSubmatch() P1 painful
@@ -75,6 +78,13 @@ day13/                  RegEx.FindSubmatch day and easy algebra for diophantine 
 day14/                  Visualizer, wrote ModSolver(d1,r1,d2,r2) will add to utilities
   day14/AoC2024_Day14.png // screengrab of visualization
 day15/                  Pushing boxes, sometimes pairs, collision detection
+day16/                  Weighted mazes, least cost
+  day16/maze1.txt         // 2nd provided example
+  day16/simplified1.txt   // Manually simplified maze, based off of input1.txt
+  day16b{ex,maze,input,simplified} // ASCII-visualized mazes
+  day16/D16P1.png         // screengrab of bsimplified visualization that solved correctly
+day17/                  .
+day18/                  Dijkstra's algorithm day
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
