@@ -15,17 +15,6 @@ import (
 
 ///////////////////////////////////////////////////////////
 
-const Debugging bool = false
-
-func debug(msg string) {
-	if !Debugging { return }
-	fmt.Print(msg)
-}
-
-func debugf(format string, dets ...interface{}) {
-	if !Debugging { return }
-	fmt.Printf(format, dets...)
-}
 
 ///////////////////////////////////////////////////////////
 
