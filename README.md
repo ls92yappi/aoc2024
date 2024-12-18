@@ -83,7 +83,12 @@ day16/                  Weighted mazes, least cost
   day16/simplified1.txt   // Manually simplified maze, based off of input1.txt
   day16b{ex,maze,input,simplified} // ASCII-visualized mazes
   day16/D16P1.png         // screengrab of bsimplified visualization that solved correctly
-day17/                  .
+day17/                  Computer sim, then Octal suffix jumps for P2
+  day17/two2.txt          // 2nd example provided
+  day17/AoC_octalBruteForceDigits.png // screengrab from related YouTube video
+  day17/d17_aoc2024.py    // my fork of JP's approach, came close and inspired
+  day17/mrphlip.py        // my (barely) fork of MP's approach, did not solve
+  day17/hneut.py          // HN's approach, solved it, partial inspiration
 day18/                  Dijkstra's algorithm day
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
