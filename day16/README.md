@@ -2,10 +2,14 @@
 
 Run Day 16 Part 1 with `solve 1`. My algorithm was *mostly* right, but not quite. So I manually simplified the maze in `simplified1.txt` until my algorithm in `problem1.go` gave the correct solution. My brain was melting and I wasn't feeling well, so my score reflected this, as I was just able to finish it before the next day began.  
 
-Run Day 16 Part 2 with `solve 2`. Saw that it required a non-simplified maze to be answered, so skipped it. First deep failure of 2024's AoC. Had to happen sometime. 2023's failures were: D13P2, D17 (was not feeling well), D21P2, and D22P2, did not even attempt D24 or D25.  
+Manually simplified: ![](D16P1.png)  
 
+Lots of iterated `cp simplified1.txt bsimplified && sed -i 's/#/█/g' bsimplified && hat bsimplified && time ./problem1 simplified1.txt` calls in my command history. The repeated simplifications eventually got the runtime down from 71 seconds to under 3 seconds, as Points of Interest shrunk from 3383 down to 910, and Connectivity shrunk from 971,195 down to 50,728.  
 
-See ![Manually simplified maze that my algorithm was good enough for](D16P1.png).
+---
+
+Run Day 16 Part 2 with `solve 2`. Saw that it required a non-simplified maze to be answered, so skipped it. This was my first deep failure of 2024's AoC. Had to happen sometime. 2023's failures were: D13P2, D17 (was not feeling well), D18P2, D21P2, and D22P2, did not even attempt D24 or D25. Ended last year with a total of 40 stars.  
+
 
 ## Day 16 - Part 1 ##
 
