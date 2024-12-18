@@ -5,6 +5,8 @@ Run Day 16 Part 1 with `solve 1`. My algorithm was *mostly* right, but not quite
 Run Day 16 Part 2 with `solve 2`. Saw that it required a non-simplified maze to be answered, so skipped it. First deep failure of 2024's AoC. Had to happen sometime. 2023's failures were: D13P2, D17 (was not feeling well), D21P2, and D22P2, did not even attempt D24 or D25.  
 
 
+See ![Manually simplified maze that my algorithm was good enough for](D16P1.png).
+
 ## Day 16 - Part 1 ##
 
 ```
