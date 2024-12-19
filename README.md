@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 0
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 19   00:44:09    4428      0   01:25:33    4775      0   P2 Memoization saves the day again    
  18   01:19:51    5970      0   01:25:22    5413      0   Dijkstra's algorithm
  17   01:22:25    5612      0   05:38:18    4661      0   P2 octal arithmetic nightmare
  16   23:46:52   23316      0   00:00:00   xxxxx      0   Weighted mazes, manually eased P1    
@@ -90,6 +91,7 @@ day17/                  Computer sim, then Octal suffix jumps for P2
   day17/mrphlip.py        // my (barely) fork of MP's approach, did not solve
   day17/hneut.py          // HN's approach, solved it, partial inspiration
 day18/                  Dijkstra's algorithm day
+day19/                  Memoization of P2 again
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
