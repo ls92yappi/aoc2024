@@ -10,14 +10,15 @@ My best Part 1 rank was #3910 on Day 22. My best Part 2 rank was #4194 on Day 20
 My fastest time to Part 1 was 00:19:55 on Day 15. My fastest time to Part 2 was 01:16:44 on Day 11. My fastest delta for time 2 was 00:24:26 on Day 11.  
 
 #### 2024 bests ####
-My best Part 1 rank was #4786 on Day 7. My best Part 2 rank was #4641 on Day 4.  
-My fastest time to Part 1 was 00:25:37 on Day 4. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:05:31 on Day 18.  
+My best Part 1 rank was #1062 on Day 20. My best Part 2 rank was #4641 on Day 4.  
+My fastest time to Part 1 was 00:25:12 on Day 20. My fastest time to Part 2 was 00:37:54 on Day 4. My fastest delta for time 2 was 00:05:31 on Day 18.  
 
 
 ### Times and Ranks ###
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 20   00:25:12    1062      0   03:58:43    5115      0   BfsDijkstra(), Manhattan() born here
  19   00:44:09    4428      0   01:25:33    4775      0   P2 Memoization saves the day again    
  18   01:19:51    5970      0   01:25:22    5413      0   Dijkstra's algorithm
  17   01:22:25    5612      0   05:38:18    4661      0   P2 octal arithmetic nightmare
@@ -92,6 +93,7 @@ day17/                  Computer sim, then Octal suffix jumps for P2
   day17/hneut.py          // HN's approach, solved it, partial inspiration
 day18/                  Dijkstra's algorithm day
 day19/                  Memoization of P2 again
+day20/                  Dijkstra again, then BfsDijkstra(..., ignoreWalls, maxDist)
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
@@ -111,3 +113,51 @@ else
   go run problem$1.go $2$1.txt
 fi
 ```
+
+Created a pait of bash functions to quicken my daily setup, in `~/.bash_aliases`:
+```
+#!/bin/bash
+
+# already had the mdg() function to make and change working directory
+mdg ()
+{
+    mkdir -p "$1"
+    cd "$1"
+}
+
+# Create a new Advent of Code day$1 directory using suitable templates
+newaocday ()
+{
+  newdaynum="$1"
+  # move to root of repo
+  cd $(git rev-parse --show-toplevel)
+  if [ ! -d "day$newdaynum" ]; then
+    mdg "day$newdaynum"
+    touch ex1.txt ex2.txt input1.txt input2.txt problem2.go
+    cp ../probTemplate.go problem1.go
+    cp $HOME/Templates/aoc2024README.md README.md
+    sed -i "s/XXX/${1}/g" README.md
+    go mod init this
+    go mod tidy
+  fi
+}
+
+# below is accurate during December of 2024
+# in Firefox, Ctrl+Shift+I = developer tools, then Storage tab->Cookies->session copy
+export AOC_Cookie="12345678...90abcdef"
+
+aocinput ()
+{
+  dirda=$(pwd)
+  # get last 2 characters of current dir
+  da=${dirda: -2}
+  yr=$(date '+%Y')
+  #https://adventofcode.com/2024/day/19/input
+  infile="https://adventofcode.com/${yr}/day/${da}/input"
+  curl "${infile}" -H "cookie: session=${AOC_Cookie}" -o input1.txt
+  cp input1.txt input2.txt
+}
+```
+I run `newaocday 07` to create December 7th's directory, any time on or before that date.  
+
+Once midnight hits, I can run `aocinput` to pull down my copy of the input, using the session cookie I have stored in `AOC_Cookie` environment variable, that I previously cached from Firefox.  
