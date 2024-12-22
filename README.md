@@ -18,6 +18,8 @@ My fastest time to Part 1 was 00:25:12 on Day 20. My fastest time to Part 2 was 
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 22   00:23:38    3172      0   03:36:49    5353      0   P2 Streamline, do less
+ 21   00:00:00    xxxx      0   00:00:00    xxxx      0   .    
  20   00:25:12    1062      0   03:58:43    5115      0   BfsDijkstra(), Manhattan() born here
  19   00:44:09    4428      0   01:25:33    4775      0   P2 Memoization saves the day again    
  18   01:19:51    5970      0   01:25:22    5413      0   Dijkstra's algorithm
@@ -94,6 +96,10 @@ day17/                  Computer sim, then Octal suffix jumps for P2
 day18/                  Dijkstra's algorithm day
 day19/                  Memoization of P2 again
 day20/                  Dijkstra again, then BfsDijkstra(..., ignoreWalls, maxDist)
+day21/                  .
+day22/                  Score sequences of numeric diffs
+  day22/given2.txt        // example for P2
+  day22/p2brute.go        // first approach for P2 using brute force, not sure why wrong
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
