@@ -18,6 +18,7 @@ My fastest time to Part 1 was 00:25:12 on Day 20. My fastest time to Part 2 was 
 ```
       --------Part 1---------   --------Part 2---------
 Day       Time    Rank  Score       Time    Rank  Score
+ 24   01:23:40    4820      0   09:16:49    5104      0   P2 was complicated
  23   00:38:12    3492      0   03:57:43    6356      0   P2 worried too much about graph theory
  22   00:23:38    3172      0   03:36:49    5353      0   P2 Streamline, do less
  21   00:00:00    xxxx      0   00:00:00    xxxx      0   .    
@@ -102,6 +103,16 @@ day22/                  Score sequences of numeric diffs
   day22/given2.txt        // example for P2
   day22/p2brute.go        // first approach for P2 using brute force, not sure why wrong
 day23/                  K-complete subgraphs  
+day24/                  Logic gates validation
+  day24/mini1.txt         // example for P1
+  day24/p2first.go        // first approach for P2
+  day24/der.txt           // derivations
+  day24/depends.txt       // der, values only
+  day24/maxdegs.txt       // der, max degree only
+  day24/complexity.txt    // der, "[" only
+  day24/permits.txt       // data structure when exploring P1
+  day24/zGates.txt        // just the z-prefixed Gates
+  day24/manual2.txt       // bonus manual solution, see daily README
 ```
 Note that `ex1.txt` and `ex2.txt` along with `input1.txt` and `input2.txt` are redundant.  
 
